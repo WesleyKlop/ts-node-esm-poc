@@ -15,3 +15,6 @@ echo -e "\n\n\n"
 node --loader ts-node/esm src/with-ts-extension.ts
 
 
+echo -e "\n\n\n"
+
+node --loader ts-node/esm src/with-dynamic-imports.ts
